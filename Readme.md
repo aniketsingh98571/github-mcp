@@ -15,17 +15,7 @@ The MCP server uses environment variables configured directly in your Cursor/Cla
 
 ## Running the MCP Server
 
-### Local Development
-
-To run the MCP server locally in Cursor/Claude Desktop:
-
-1. Start the server using Node.js:
-
-```bash
-node src/index.js
-```
-
-2. Configure Cursor/Claude Desktop to use the MCP server by adding the following to your MCP configuration:
+Configure Cursor/Claude Desktop to use the MCP server by adding the following to your MCP configuration:
 
 ```json
 {
